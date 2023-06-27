@@ -138,14 +138,14 @@
         transform: rotate(-45deg);
     }
     .tongue {
-        background-color: #443f41;
+        background-color: #d79db4;
         height: 0.7em;
         width: 0.7em;
         position: absolute;
         transform: translateX(-50%);
         left: 50%;
         top: 5em;
-        border-radius: 5em 5em 5em 5em;
+        border-radius: 0 0 5em 5em;
     }
     .body {
         background-color: #0f0f0e;
@@ -192,23 +192,4 @@
         50% {
           transform: translateY(1.25em);
         }
-      }
-      .bubble {
-        position: absolute;
-        height: 1.62em;
-        width: 1.62em;
-        background-color: #6d6ca2;
-        transform: scale(0.2);
-        top: 17em;
-        left: 21em;
-        animation: grr 2s forwards 2;
-        border-radius: 4.5em;
-      }
-      @keyframes grr {
-        0% {
-        }
-        100% {
-            transform: translate(5em, -5em);
-            opacity: 0;
-        }
-      }
+    }
